@@ -1,0 +1,6 @@
+{
+  "name": "FeedexDigital",
+  "description": "FeedexDigital partner asset management, daily income VIP plans, team referral network, and USDT wallet dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,126 @@
+{
+  "version": 4,
+  "config": {
+    "telegramLink": "https://t.me/FeedexDigitalOfficial",
+    "supportLink": "https://t.me/FeedexDigitalSupport",
+    "rechargeNumbers": {
+      "বিকাশ": "01700001122",
+      "নগদ": "01800003344",
+      "রকেট": "01900005566"
+    },
+    "referralRates": {
+      "level1": 12,
+      "level2": 5,
+      "level3": 2
+    },
+    "registrationBonus": 150,
+    "minDeposit": 300,
+    "minWithdraw": 100,
+    "autoApproveDeposit": false
+  },
+  "plans": [
+    {
+      "id": "vip-1",
+      "code": "ভিআইপি ১",
+      "name": "ভিআইপি ১ — এয়ার কার্গো স্টার্টার",
+      "category": "daily",
+      "price": 500,
+      "dailyIncome": 50,
+      "cycleDays": 30,
+      "totalReturn": 1500,
+      "imagePath": "/assets/aistudio/images__26__5ccb2af9.jpeg"
+    },
+    {
+      "id": "vip-2",
+      "code": "ভিআইপি ২",
+      "name": "ভিআইপি ২ — এক্সপ্রেস ফ্লিট",
+      "category": "daily",
+      "price": 1000,
+      "dailyIncome": 110,
+      "cycleDays": 30,
+      "totalReturn": 3300,
+      "imagePath": "/assets/aistudio/80825423_605f44ca.jpg"
+    },
+    {
+      "id": "vip-3",
+      "code": "ভিআইপি ৩",
+      "name": "ভিআইপি ৩ — ইন্টারন্যাশনাল এয়ারলাইন",
+      "category": "daily",
+      "price": 2000,
+      "dailyIncome": 230,
+      "cycleDays": 30,
+      "totalReturn": 6900,
+      "imagePath": "/assets/aistudio/e4cf2de03ad051bc28ff33864f809d51_cd43a73c.jpg"
+    },
+    {
+      "id": "vip-4",
+      "code": "ভিআইপি ৪",
+      "name": "ভিআইপি ৪ — গ্লোবাল হাব পার্টনার",
+      "category": "daily",
+      "price": 5000,
+      "dailyIncome": 600,
+      "cycleDays": 30,
+      "totalReturn": 18000,
+      "imagePath": "/assets/aistudio/images__9__13d6c096.jpeg"
+    },
+    {
+      "id": "vip-5",
+      "code": "ভিআইপি ৫",
+      "name": "ভিআইপি ৫ — প্রাইম লজিস্টিকস",
+      "category": "daily",
+      "price": 10000,
+      "dailyIncome": 1250,
+      "cycleDays": 30,
+      "totalReturn": 37500,
+      "imagePath": "/assets/aistudio/images__8__66bd7665.jpeg"
+    },
+    {
+      "id": "vip-6",
+      "code": "ভিআইপি ৬",
+      "name": "ভিআইপি ৬ — এক্সিকিউটিভ ফ্রেইট",
+      "category": "daily",
+      "price": 25000,
+      "dailyIncome": 3300,
+      "cycleDays": 30,
+      "totalReturn": 99000,
+      "imagePath": "/assets/aistudio/e4cf2de03ad051bc28ff33864f809d51_cd43a73c.jpg"
+    },
+    {
+      "id": "welfare-1",
+      "code": "কল্যাণ ১",
+      "name": "কল্যাণ প্ল্যান ক",
+      "category": "welfare",
+      "price": 300,
+      "dailyIncome": 75,
+      "cycleDays": 7,
+      "totalReturn": 525,
+      "imagePath": "/assets/aistudio/images__8__66bd7665.jpeg"
+    },
+    {
+      "id": "welfare-2",
+      "code": "কল্যাণ ২",
+      "name": "কল্যাণ প্ল্যান খ",
+      "category": "welfare",
+      "price": 1200,
+      "dailyIncome": 280,
+      "cycleDays": 10,
+      "totalReturn": 2800,
+      "imagePath": "/assets/aistudio/images__9__13d6c096.jpeg"
+    },
+    {
+      "id": "welfare-3",
+      "code": "কল্যাণ ৩",
+      "name": "কল্যাণ প্ল্যান গ",
+      "category": "welfare",
+      "price": 3500,
+      "dailyIncome": 750,
+      "cycleDays": 15,
+      "totalReturn": 11250,
+      "imagePath": "/assets/aistudio/80825423_605f44ca.jpg"
+    }
+  ],
+  "adminPasswordHash": "112dd6452e38bd4b8a92ea3986181192:056bc1453b05c1ae8f58a1a8d574aeb7dde6a002fa9bbd6afda27b216b437316b6a539b7e9543c023af135ba0eaf8cfba8368d53794b4257cf2f95da1557741e",
+  "users": [],
+  "products": [],
+  "records": []
+}

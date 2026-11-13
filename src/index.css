@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: "Noto Sans Bengali", "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
+    --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #f5f7fa;
+    color: #0f172a;
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Slanted segmented tab clip */
+.tab-slant-left {
+  clip-path: polygon(0 0, calc(100% - 14px) 0, 100% 100%, 0 100%);
+}
+
+.tab-slant-right {
+  clip-path: polygon(14px 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.tab-slant-mid {
+  clip-path: polygon(10px 0, calc(100% - 10px) 0, 100% 100%, 0 100%);
+}
+
+/* Continuous vertical scroll for Home Page Live Payments section */
+@keyframes livePayoutScroll {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+.animate-live-payouts {
+  animation: livePayoutScroll 18s linear infinite;
+}
+
+.animate-live-payouts:hover {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-live-payouts {
+    animation: none;
+  }
+}
